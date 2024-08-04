@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Basic</title>
+    <link rel="shortcut icon" href="#" />
+</head>
+<body>
+    <button id="btn" onclick="changeColor()">Btn</button>
+
+    <script>
+        function changeColor() {
+            let btt = document.getElementById("btn");
+            btt.style.color = "#dc2626";
+            btt.style.backgroundColor = "#000000";
+            btt.style.fontSize = "30px";
+            console.log(btt);
+        };
+    </script>
+</body>
+</html>
